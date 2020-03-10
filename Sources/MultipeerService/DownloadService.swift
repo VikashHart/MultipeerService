@@ -1,5 +1,6 @@
 import Foundation
 import MultipeerConnectivity
+import UIKit
 
 protocol DownloadServiceDelegate: class {
     func imageRecieved(image: UIImage, peer: String)
