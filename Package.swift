@@ -26,6 +26,7 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "MultipeerServiceTests",
-            dependencies: ["MultipeerService"]),
+            dependencies: ["MultipeerService"],
+            path: "Tests/MultipeerServiceTests"),
     ]
 )
